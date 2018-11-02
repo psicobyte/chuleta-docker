@@ -45,6 +45,7 @@
 
 `docker rm COMTENEDOR` borra CONTENEDOR
 
+`docker exec -it CONTENEDOR bash` inicia sesión interactiva bash en CONTENEDOR (`-i` mantiene STDIN abierto y `-t` asigna un terminal virtual en el contenedor)
 
 
 `docker logs CONTENEDOR` Muestra un log con las salidas de CONTENEDOR
@@ -53,7 +54,7 @@
 
 `docker top CONTENEDOR` muestra los procesos en el contenedor
 
-
+`docker commit CONTENEDOR REPO` crea imagen REPO a partir de CONTENEDOR
 
 
 
